@@ -127,3 +127,19 @@ h2{
     box-shadow: 0, 5px, 5px rgba(0,0,0,0.2);
 
 }
+.video-wrapper{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #00000052;
+    visibility: hidden;
+    height: 100vh;
+    width: 100%;
+}
+.video-container{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
